@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #343A40;
+
+}
+.header_content{
+    width: 45%;
+    margin: auto;
+
+}
+.header_content ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 20px 0;
+
+    
+}
+.header_content ul li{
+    
+}
+.header_content ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.header_content ul li a img{
+    width: 100%;
+    
+}
+article{
+    background-image: url(../images/background.jpg);
+    height:900px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position:center center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form_content{
+    width: 70%;
+    display: flex;
+ 
+}
+.relax{
+    width: 50%;
+    
+
+}
+.relax h1{
+    color: aliceblue;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+.relax h1 span{
+    color: #6DBD6D;
+
+}
+.relax p{
+    color: #fff;
+    margin: 10px 0;
+
+} 
+.relax ul{
+    list-style: none;
+
+}
+.relax ul li{
+    color: #fff;
+    font-size: 16px;
+
+}
+.relax ul li i {
+    font-size: 12px;
+    padding: 9px;
+    margin-right: 5px;
+
+}
+button{
+ 
+    background: #6DBD6D;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:#fff
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.register{
+    width: 50%;
+    min-height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.register_form{
+    width: 80%;
+    height: 80%;
+    background: #6DBD6D;
+    padding: 30px 20px;
+}
+.register_form h1{
+
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.register_form p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.register_form form{
+
+    
+}
+.register_form form input{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 0;
+    padding-left: 5px;
+
+    
+}
